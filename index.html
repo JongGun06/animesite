@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background: linear-gradient(90deg, purple, red, pink, orange, blue)">
+    <header>
+      <nav
+        style="background: #252344 !important"
+        class="navbar navbar-light bg-light"
+      >
+        <div style="background: #252344; height: 4em" class="container-fluid">
+          <a class="navbar-brand">
+            <img style="border-radius: 10%;"
+            src="avatarka.jpg" width="40" height="40" class="d-inline-block
+            align-top" alt="" loading="lazy alt="" />
+
+            <span class="ava">NekAni</span></a
+          >
+          <form class="d-flex">
+            <input
+              class="form-control mr-2"
+              type="text"
+              id="searchInput"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <br /><br /><br /><br />
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div style="border-radius: 2rem" class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="carousel_1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Магическая битва</h1>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="carousel_2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Мастрера меча онлайн</h1>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="carousel_3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Милый во франксе</h1>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="carousel_4.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Поднятие уровня в одиночку</h1>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="carousel_5.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Re Zero</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="carousel_7.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Атака титанов</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div id="list" class="row"></div>
+
+      <div class="createAnime">
+        <input placeholder="картинка" type="text" name="" id="inp_src" />
+        <input placeholder="название" type="text" name="" id="inp_name" />
+        <input placeholder="видео" type="text" name="" id="inp" />
+        <button class="buttonadd" id="button">Добавить Аниме</button>
+      </div>
+    </div>
+    <br /><br /><br />
+    <footer>
+      <p>Свяжитесь с нами:</p>
+      <a href="https://t.me/phsmdgnmp" target="_blank">Telegram</a> |
+      <a href="https://wa.me/996559205088" target="_blank">WhatsApp</a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
